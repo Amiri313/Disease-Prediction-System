@@ -25,7 +25,6 @@ A Random Forest is an ensemble of many Decision Trees. Each tree independently p
 | Testing samples | 42 (one held-out example per class) |
 | Missing values | None |
 
-*A previous version of this project used a synthetically generated dataset with randomly assigned labels — see "Project History" below for why that dataset was replaced.*
 
 ---
 
@@ -97,9 +96,6 @@ project/
 ```
 
 ---
-
-## Project History
-An earlier version of this project used a synthetic dataset (`dataset_health.csv`) with 5 disease classes (Asthma, Diabetes, Healthy, Heart Disease, Hypertension) where labels were randomly assigned and carried no true relationship to the input features. That version honestly reported ~21.67% accuracy (barely above the 20% random baseline for 5 balanced classes) — a technically correct but unimpressive result for a portfolio project. This version replaces that dataset with real symptom-disease data so the model's performance reflects genuine predictive signal.
 
 ---
 
